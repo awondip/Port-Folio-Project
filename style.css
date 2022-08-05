@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#port-container {
+    width: 100%;
+    height: auto;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 5rem;
+    position: static;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul li {
+ margin: 1rem;
+ list-style: none;
+ 
+}
+ ul li > a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1.3rem;
+    color: #fff;
+}
+
+ul li > a:hover{
+    color: rgb(179, 231, 120);
+}
+.home-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 8rem;
+    position: relative;
+    
+}
+.home-image {
+    max-width: 50%;
+    height: 25rem;
+    border: 2px solid;
+    margin-left: 5rem;
+    border-radius: 800%;
+}
+#mypicture {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+#great {
+    font-size: 1.5rem;
+    padding: -8rem;
+}
+#great-1 {
+    font-size: 1.5rem;
+    margin-left: -4rem;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    color: #fff;
+}
+#Devoloper-name {
+    font-size: 3rem;
+    padding: -8rem;
+    color: #fff;
+}
+
+.skill-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#tools-heading, #projects-heading, #contactheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#Skills {
+    width: 100%;
+    background-color: black;
+}
+
+
+.Project-display {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+
+}
+
+#icon {
+    width: 100px;
+    padding: 8rem;
+}
+
+#Projects {
+    background-color: black;
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-container > div {
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    border: none;
+    box-shadow: 5px 5px 35px 5px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    /* transition: transform, 1s; */
+
+}
+.project-container > div > img {
+    width: 100%;
+    height: 70%; 
+}
+#cardheading {
+    margin-left: 6rem;
+}
+.project-container > div >a {
+    text-decoration: none;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+}
+.project-container > div:hover {
+    transform: translate3d(0px, 15px, 0px);
+
+}
+#Contact {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
